@@ -51,11 +51,10 @@ a { color: inherit; text-decoration: none; }
 .stats .n { display: block; font-family: var(--font-display); font-weight: 700; font-size: 1.8rem; color: var(--ink); }
 .stats .l { display: block; font-size: 0.85rem; color: var(--ink-soft); }
 .actions { display: flex; gap: 14px; flex-wrap: wrap; }
-.hero-portrait { justify-self: center; }
-.hero-portrait img {
-  width: min(320px, 100%); aspect-ratio: 1/1; border-radius: 50%; object-fit: cover;
-  border: 6px solid var(--accent-soft); box-shadow: 0 0 0 2px var(--accent);
-}
+.hero-portrait { justify-self: center; width: min(240px, 100%); }
+.hero-card { width: 100%; }
+.hero-card .thumb { border-radius: 20px; border: 2px solid var(--accent); box-shadow: 0 16px 40px -20px rgba(116,0,114,0.4); }
+.hero-card .play { font-size: 2rem; }
 
 /* ---------- quote band ---------- */
 .quote-band { background: var(--accent); color: #fff; padding-block: clamp(36px, 6vw, 64px); text-align: center; }
